@@ -10,8 +10,13 @@
 
 ## Description
 
-This project is a portfolio piece meant to showcase my Object Relational Mappping skills when using Sequelize models for a MYSQL database and writing routes in an express.js server. 
+This project is a portfolio piece meant to showcase some of my back-end technical skills: 
+- Express.js server and routes
+- MYSQL database
+- Sequelize Models
+- Object Relational Mapping writing methodology
 
+It is coded as the backend for a fictional E-Commerce website.
 
 ## Installation
 
@@ -46,3 +51,5 @@ Once npm packages have been installed, user may use the application using the fo
 ## Contributors
 
 Quinn Pucci
+
+pucci.quinn@gmail.com
