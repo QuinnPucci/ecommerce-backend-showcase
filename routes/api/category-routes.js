@@ -21,7 +21,7 @@ router.get("/", (req, res) => {
     });
 });
 
-// Finds one category by its id value.
+// Find category by its i
 router.get("/:id", (req, res) => {
   Category.findOne({
     where: {
@@ -59,7 +59,7 @@ router.post("/", (req, res) => {
     });
 });
 
-// Update a category by its `id` value.
+// Update a category by id
 router.put("/:id", (req, res) => {
   Category.update(req.body, {
     where: {
@@ -81,7 +81,7 @@ router.put("/:id", (req, res) => {
     });
 });
 
-// Delete a category by its id value.
+// Delete a category by id
 router.delete("/:id", (req, res) => {
   Category.destroy({
     where: {
