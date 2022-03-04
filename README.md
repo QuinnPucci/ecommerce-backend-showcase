@@ -26,7 +26,9 @@ In order to use the application, follow these steps in the terminal in the root 
 
 `npm install mysql2`
 
-`npm install sequelize`
+`npm install express`
+
+`npm install express-sequelize`
 
 `npm install dotenv`
 
